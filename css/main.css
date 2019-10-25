@@ -1,7 +1,64 @@
 html {
   box-sizing: border-box;
   background-color: #f0eee8;
+  line-height: 1.5;
+  color: #512200;
+  margin: 0 0 1rem;
+  text-align: center;
 }
+
+.link-card strong {
+font-size: 1.5rem;
+font-family: Dosis, sans-serif;
+}
+
+.link-card li {
+  display: inline-block;
+  margin: 0 0 1rem;
+  max-width: 20em;
+  padding: 1rem;
+  background-color: ##f0eee8;
+  border: 2px solid #785439;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.link-card div  {
+    text-align: center;
+  }
+
+  .link-card a {
+    display: inline-block;
+    padding: .4em .75em .5em;
+    background-color: #785439;
+    border-radius: 3px;
+    border-width: 3px;
+    color: #fff;
+    text-decoration: none;
+    font-family: Dosis, sans-serif;
+  }
+
+.link-card dd {
+      text-align: right;
+      font-style: italic;
+      font-size: .875rem;
+      line-height: 0;
+  }
+
+  .link-card dt {
+  text-align: left;
+  font-size: .875rem;
+  }
+
+  .link-card:hover {
+    background-color: #cabdb2;
+    color: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    border: 2px;
+    max-width: 20em;
+    display: inline-block;
+  }
 
 *, *::before, *::after {
   box-sizing: inherit;
