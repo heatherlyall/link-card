@@ -17,7 +17,7 @@ html {
   margin: 0 0 1rem;
   max-width: 20em;
   padding: 1rem;
-  background-color: #f0eee8;
+  background-color: #dcd4cd;
   border: 2px solid #785439;
   border-radius: 8px;
   text-align: left;
@@ -53,13 +53,25 @@ html {
 }
 
 .link-card:hover {
-  background-color: #cabdb2;
+  background-color: #9a816d;
   color: #fff;
   border-radius: 8px;
   padding: 1rem;
   border: 2px;
   max-width: 20em;
   display: inline-block;
+}
+
+a .btn {
+  display: inline-block;
+  padding: .4em .75em .5em;
+  background-color: #785439;
+  border-radius: 3px;
+  border-width: 3px;
+  color: #fff;
+  text-decoration: none;
+  font-family: Dosis, sans-serif;
+  font-size: 1.125rem;
 }
 
 *, *::before, *::after {
