@@ -55,11 +55,6 @@ html {
 .link-card:hover {
   background-color: #9a816d;
   color: #fff;
-  border-radius: 8px;
-  padding: 1rem;
-  border: 2px;
-  max-width: 20em;
-  display: inline-block;
 }
 
 a .btn {
