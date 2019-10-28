@@ -28,7 +28,7 @@ html {
   text-align: center;
 }
 
-.link-card a {
+ a {
   display: block;
   padding: .4em .75em .5em;
   background-color: #785439;
