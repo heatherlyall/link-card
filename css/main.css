@@ -30,17 +30,21 @@ html {
 
 .link-card div {
   text-align: center;
+  border-top: 3px;
+  border-bottom: 3px;
+  color: #512200;
+  border-style: solid;
 }
 
  a {
   display: block;
   padding: .4em .75em .5em;
-  background-color: #785439;
+  background-color: #cabdb2;
   border-radius: 3px;
   border-width: 3px;
-  color: #fff;
+  color: #512200;
   text-decoration: none;
-  font-family: Dosis, sans-serif;
+  font-family: Georgia;
   font-size: 1.125rem;
 }
 
@@ -58,7 +62,7 @@ html {
 
 .link-card:hover {
   background-color: #9a816d;
-  color: #fff;
+  color: #512200;
 }
 
 a .btn {
@@ -69,7 +73,7 @@ a .btn {
   border-width: 3px;
   color: #fff;
   text-decoration: none;
-  font-family: Dosis, sans-serif;
+  font-family: Georgia;
   font-size: 1.125rem;
 }
 
