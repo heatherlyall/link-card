@@ -63,6 +63,7 @@ html {
   line-height: 0;
   width: 45%;
   color: #512200;
+  margin: 0;
 }
 
 .link-card dt {
@@ -71,7 +72,6 @@ html {
   display: inline-block;
   width: 45%;
   color: #512200;
-  margin: 0;
 }
 
 .link-card:hover {
