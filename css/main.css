@@ -17,6 +17,7 @@ html {
   font-family: Dosis, sans-serif;
   text-align: left;
   font-weight: bold;
+  margin: 0 0 1rem;
 }
 
 .link-card li {
@@ -41,11 +42,14 @@ html {
   border-left: none;
   border-right: none;
   overflow: hidden;
+  font-size: .875rem;
+  padding: 1rem;
+  padding-left: 0;
 }
 
 a {
   display: block;
-  padding: .4em .75em .5em;
+  padding: 1rem;
   background-color: #dcd4cd;
   border-radius: 3px;
   border-width: 3px;
@@ -59,8 +63,6 @@ a {
   text-align: left;
   display: inline-block;
   font-style: italic;
-  font-size: .875rem;
-  line-height: 0;
   width: 45%;
   color: #512200;
   margin: 0;
@@ -68,7 +70,6 @@ a {
 
 .link-card dt {
   text-align: left;
-  font-size: .875rem;
   display: inline-block;
   width: 45%;
   color: #512200;
