@@ -8,7 +8,7 @@ html {
 
 .link-card {
   display: block;
-  border: 3px solid #9a816d;;
+  border: 3px solid #9a816d;
   border-radius: 8px;
 }
 
@@ -43,7 +43,7 @@ html {
   overflow: hidden;
 }
 
- a {
+a {
   display: block;
   padding: .4em .75em .5em;
   background-color: #dcd4cd;
@@ -98,7 +98,7 @@ html {
 }
 
 .learnmore {
-text-align: center;
+  text-align: center;
 }
 
 p {
